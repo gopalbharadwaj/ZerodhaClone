@@ -30,7 +30,7 @@ localStorage.setItem("token", data.token);
 
 // alert("Login successful");
 
-window.location = "http://localhost:3001";
+window.location = "https://super-puppy-7410a4.netlify.app/";
 
 } else {
 
