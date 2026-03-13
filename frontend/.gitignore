@@ -3,7 +3,10 @@
 .pnp
 .pnp.js
 
+
 # env files
+.env
+.env*
 **/.env
 
 # testing
