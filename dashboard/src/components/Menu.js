@@ -19,7 +19,7 @@ const Menu = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("token");
-    window.location.href = "http://localhost:3000/login";
+    window.location.href = "https://elaborate-praline-6eaf66.netlify.app/login";
   };
 
 
