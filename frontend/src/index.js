@@ -13,7 +13,7 @@ import Footer from './landing_page/Footer';
 import NotFound from './landing_page/NotFound';
 import SignupForm from './landing_page/signup/SignupForm';
 import LoginForm from './landing_page/signup/LoginForm';
-import Dashboard from "./dashboard/Dashboard";
+import Dashboard from "./dashboard/src/components/Dashboard";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
