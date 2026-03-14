@@ -18,9 +18,12 @@ const Menu = () => {
   const activeMenuClass = "menu selected";
 
   const handleLogout = () => {
-    localStorage.removeItem("token");
-    window.location.href = "https://elaborate-praline-6eaf66.netlify.app/login";
-  };
+
+  localStorage.removeItem("token");
+
+  window.location.href = "/login";
+
+};
 
 
   return (
