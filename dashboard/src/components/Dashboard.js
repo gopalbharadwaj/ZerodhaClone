@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 
 import Apps from "./Apps";
@@ -14,9 +14,19 @@ import { GeneralContextProvider } from "./GeneralContext";
 
 
 const Dashboard = () => {
+  useEffect(() => {
+
+    const token = localStorage.getItem("token");
+
+    if (!token) {
+      window.location.href =
+        "https://elaborate-praline-6eaf66.netlify.app/login";
+    }
+
+  }, []);
   return (
     <div className="dashboard-container">
-      
+
       <GeneralContextProvider>
         <WatchList />
       </GeneralContextProvider>
