@@ -14,16 +14,16 @@ import { GeneralContextProvider } from "./GeneralContext";
 
 
 const Dashboard = () => {
-  useEffect(() => {
+ useEffect(() => {
+  const token = localStorage.getItem("token");
 
-    const token = localStorage.getItem("token");
-
-    if (!token) {
+  if (!token) {
+    setTimeout(() => {
       window.location.href =
         "https://elaborate-praline-6eaf66.netlify.app/login";
-    }
-
-  }, []);
+    }, 200);
+  }
+}, []);
   return (
     <div className="dashboard-container">
 
