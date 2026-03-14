@@ -24,10 +24,10 @@ function Hero() {
           <h1 className="fs-3">Featured</h1>
           <ol>
             <li>
-              <a href="">Current Takeovers and Delisting - January 2024</a>
+              <a href="#">Current Takeovers and Delisting - January 2024</a>
             </li>
             <li>
-              <a href="">Latest Intraday leverages - MIS & CO</a>
+              <a href="#">Latest Intraday leverages - MIS & CO</a>
             </li>
           </ol>
         </div>
