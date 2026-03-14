@@ -28,9 +28,9 @@ if (res.ok) {
 
 localStorage.setItem("token", data.token);
 
-// alert("Login successful");
+alert("Login successful");
 
-window.location = "https://super-puppy-7410a4.netlify.app/";
+window.location.href = "https://super-puppy-7410a4.netlify.app";
 
 } else {
 
