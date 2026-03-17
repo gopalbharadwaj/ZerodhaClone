@@ -63,15 +63,6 @@ import { GeneralContextProvider } from "./GeneralContext";
 
 
 const Dashboard = () => {
-  useEffect(() => {
-
-    const token = localStorage.getItem("token");
-
-    if (!token) {
-      window.location.href = "/login";
-    }
-
-  }, []);
   return (
     <div className="dashboard-container">
 
