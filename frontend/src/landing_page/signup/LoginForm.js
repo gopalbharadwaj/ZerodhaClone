@@ -30,7 +30,7 @@ localStorage.setItem("token", data.token);
 
 alert("Login successful");
 
-window.location.href = "/dashboard";
+window.location.href = "https://zerodhaclone-2-k8bu.onrender.com";
 
 } else {
 
