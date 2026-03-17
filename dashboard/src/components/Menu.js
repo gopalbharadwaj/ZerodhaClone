@@ -21,7 +21,7 @@ const Menu = () => {
 
   localStorage.removeItem("token");
 
-  window.location.href = "https://zerodhaclone-1-8z52.onrender.com/login";
+  window.location.href = "https://zerodhaclone-1-8z52.onrender.com";
 
 };
 
